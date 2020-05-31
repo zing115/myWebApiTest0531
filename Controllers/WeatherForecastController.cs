@@ -13,6 +13,7 @@ namespace myWebApiTest0531.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
+            "Taipei", "New Taipei", "Kaohsiung",
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
@@ -26,14 +27,23 @@ namespace myWebApiTest0531.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            
             var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            return 
+            Summaries.ToList().Select(f => new WeatherForecast{
+                Date = DateTime.Now.AddDays(rng.Next(1, 10)),
+                TemperatureC = rng.Next(-20, 55),
+                Summary = f
+            }).ToArray();
+            /*
+            return Enumerable.Range(0, Summaries.Length - 1).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+            */
         }
     }
 }
