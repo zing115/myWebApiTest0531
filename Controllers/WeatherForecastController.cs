@@ -36,7 +36,7 @@ namespace myWebApiTest0531.Controllers
                 Summary = f
             }).ToArray();
             /*
-            return Enumerable.Range(0, Summaries.Length - 1).Select(index => new WeatherForecast
+            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),

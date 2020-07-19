@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {}
+    "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {}
   },
   "projects": {
-    "C:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {
+    "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
+        "projectUniqueName": "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
         "projectName": "myWebApiTest0531",
-        "projectPath": "C:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
+        "projectPath": "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
         "packagesPath": "C:\\Users\\polym\\.nuget\\packages\\",
-        "outputPath": "C:\\00\\200531\\myWebApiTest0531\\obj\\",
+        "outputPath": "c:\\00\\200531\\myWebApiTest0531\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
