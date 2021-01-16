@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {}
+    "c:\\Z\\git\\myWebApiTest0531\\myWebApiTest0531.csproj": {}
   },
   "projects": {
-    "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj": {
+    "c:\\Z\\git\\myWebApiTest0531\\myWebApiTest0531.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
+        "projectUniqueName": "c:\\Z\\git\\myWebApiTest0531\\myWebApiTest0531.csproj",
         "projectName": "myWebApiTest0531",
-        "projectPath": "c:\\00\\200531\\myWebApiTest0531\\myWebApiTest0531.csproj",
+        "projectPath": "c:\\Z\\git\\myWebApiTest0531\\myWebApiTest0531.csproj",
         "packagesPath": "C:\\Users\\polym\\.nuget\\packages\\",
-        "outputPath": "c:\\00\\200531\\myWebApiTest0531\\obj\\",
+        "outputPath": "c:\\Z\\git\\myWebApiTest0531\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -31,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -60,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
